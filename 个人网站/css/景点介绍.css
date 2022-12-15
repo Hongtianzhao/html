@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background: rgb(249, 250, 240);
+}
+
+.header {
+    height: 80px;
+    line-height: 60px;
+    margin: auto;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.logo {
+    float: left;
+    margin-left: 150px;
+}
+
+.logo h3 {
+    font-size: 24px;
+    color: #333;
+    letter-spacing: 10px;
+    margin: 10px 20px;
+    font-family: 隶书;
+}
+
+nav {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #333;
+    margin-right: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    width: 70px;
+    text-align: center;
+
+}
+
+nav ul ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+nav li:hover>ul {
+    visibility: visible;
+}
+
+nav li:hover {
+    background-color: #fed6e3
+}
+
+
+.banner {
+    height: 600px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.js {
+    text-align: center;
+    line-height: 100px
+}
+
+/* 景点介绍 */
+.box {
+    width: 1200px;
+    height: 340px;
+    margin: auto;
+    background: #cccccc90;
+    margin-bottom: 20px;
+}
+
+.box-left {
+    float: left;
+    width: 400px;
+}
+
+.box-left img {
+    width: 100%;
+    height: 250px;
+}
+
+.box-right {
+    float: right;
+    width: 780px;
+}
+
+.box-right p {
+    text-indent: 2em;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.box-tit {
+    width: 1200px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box-tit p {
+    display: inline-block;
+    width: auto;
+    border-bottom: 3px solid #000;
+}
+
+/* 版权 */
+.fot {
+    /* width: 1200px; */
+    margin: auto;
+    height: 70px;
+    line-height: 40px;
+    background: #333;
+    text-align: center;
+}
+
+.fot p {
+    color: #fff;
+    font-size: 22px;
+}
+
+#time {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 楷体;
+}
